@@ -8,6 +8,6 @@ Returns a truthy value if the given struct contains the attribute.
 
 Examples:
 
-```lisp
+```clojure
 (vm.struct/has-attr? {.foo.bar/baz 42} .foo.bar/baz) => vm.struct/contains-value
 ```
